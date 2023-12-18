@@ -23,12 +23,8 @@ function App() {
 				/>
 				<div class='bottom-0 left-0 z-10 w-full bg-gradient-to-r from-[#1CBDDD] to-[#4DCA79] pl-6 pt-6 pb-6 md:w-2/5 md:left-20 md:bottom-20 md:absolute'>
 					<p class='font-bold text-4xl leading-10 tracking-wide text-white pb-6 md:text-5xl md:leading-tight'>
-						We Crush Your <br />
-						Competitors, Goals, And
-						<br />
-						Sales Records - Without
-						<br />
-						The B.S.
+						We Crush Your Competitors, Goals, And Sales Records - Without The
+						B.S.
 					</p>
 					<Button buttonText={'Get Free Consultation'} />
 				</div>
@@ -36,7 +32,13 @@ function App() {
 
 			<div class='flex flex-wrap items-center justify-center mx-auto w-full md:w-4/5'>
 				<div class='basis-full md:basis-2/4 sm:basis-full flex flex-col items-center'>
-					<img src={MonitorImage} width={346} height={346} alt='monitor' />
+					<img
+						src={MonitorImage}
+						width={346}
+						height={346}
+						alt='monitor'
+						class='max-w-[275px] h-auto sm:max-w-full md:max-w-full'
+					/>
 				</div>
 				<div class='basis-full md:basis-2/4 justify-center sm:basis-full flex flex-col items-center sm:items-start h-full pl-6 pr-6'>
 					<p class='font-poppins font-semibold text-2xl text-center leading-9 tracking-tighter text-[#6B3CC9]'>
@@ -67,7 +69,13 @@ function App() {
 					<Button buttonText='Learn More' />
 				</div>
 				<div class='basis-full md:basis-2/4 sm:basis-full flex items-center justify-center'>
-					<img src={SearchImage} width={346} height={346} alt='search' />
+					<img
+						src={SearchImage}
+						width={346}
+						height={346}
+						alt='search'
+						class='max-w-[275px] h-auto sm:max-w-full md:max-w-full'
+					/>
 				</div>
 			</div>
 			<Footer />
