@@ -16,7 +16,7 @@ export default function Footer() {
 							</p>
 						</div>
 					</div>
-					<div class='basis-full md:basis-1/4 sm:basis-1/2 space-y-3 pt-4'>
+					<div class='basis-full md:basis-1/4 sm:basis-1/2 space-y-3 pt-4 pl-4'>
 						<p class='text-left text-lg font-semibold leading-6'>
 							Our Technologies
 						</p>
@@ -29,7 +29,7 @@ export default function Footer() {
 							<li class='font-normal text-sm leading-5'>Laravel</li>
 						</ul>
 					</div>
-					<div class='basis-full md:basis-1/4 sm:basis-1/2 space-y-3 pt-4'>
+					<div class='basis-full md:basis-1/4 sm:basis-1/2 space-y-3 pt-4 pl-4'>
 						<p class='text-left text-lg font-semibold leading-6'>
 							Our Services
 						</p>

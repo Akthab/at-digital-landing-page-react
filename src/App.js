@@ -23,7 +23,7 @@ function App() {
 				/>
 				<div class='bottom-0 left-0 z-10 w-full bg-gradient-to-r from-[#1CBDDD] to-[#4DCA79] pl-6 pt-6 pb-6 md:w-2/5 md:left-20 md:bottom-20 md:absolute'>
 					<p class='font-bold text-4xl leading-10 tracking-wide text-white pb-6 md:text-5xl md:leading-tight'>
-						We crush Your <br />
+						We Crush Your <br />
 						Competitors, Goals, And
 						<br />
 						Sales Records - Without
